@@ -53,10 +53,10 @@ module.exports.loop = function () {
     }
 
     // setup some minimum numbers for different roles
-    var minimumNumberOfHarvesters = 6;
-    var minimumNumberOfUpgraders = 6;
-    var minimumNumberOfBuilders = 6;
-    var minimumNumberOfRepairers = 3;
+    var minimumNumberOfHarvesters = 4;
+    var minimumNumberOfUpgraders = 2;
+    var minimumNumberOfBuilders = 2;
+    var minimumNumberOfRepairers = 1;
     var minimumNumberOfWallRepairers = 1;
 
     // count the number of creeps alive for each role
